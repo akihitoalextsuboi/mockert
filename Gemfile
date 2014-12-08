@@ -38,3 +38,19 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'slim-rails'
+gem 'devise'
+gem 'omniauth-facebook'
+gem 'better_errors'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'terminal-notifier-guard'
+  gem 'guard-livereload'
+  gem 'capybara'
+  gem 'letter_opener'
+  gem 'faker'
+  gem 'factory_girl_rails'
+end
+
