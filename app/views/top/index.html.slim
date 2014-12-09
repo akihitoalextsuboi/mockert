@@ -1,0 +1,65 @@
+.parallax-container
+  .row
+    .title.text-center style='position: absolute; top: 30%; left: 28%;'
+      h2.header.light-blue-text.lighten-5 Enjoy Amazing Life
+    = image_tag 'top_hawaii.jpg', width: '100%', height: '450px'
+.container style='position:relative; bottom:235px'
+  .row
+    .col.m4.offset-m4
+      select.disabled style='opacity:0.7;'
+        option value="" disabled='' selected='' Choose your option
+        option value="1" Cancun
+        option value="2" Chicago
+        option value="3" San Diego
+.container
+  .row
+    .col.s12.m3
+      p.text-center
+        a.btn onclick="toast('I am a toast', 2000)" Toast!
+    .col.s12.m3
+      p.text-center
+        a.btn onclick="toast('I am a toast', 2000)" Toast!
+    .col.s12.m3
+      p.text-center
+        a.btn onclick="toast('I am a toast', 2000)" Toast!
+    .col.s12.m3
+      p.text-center
+        a.btn onclick="toast('I am a toast', 2000)" Toast!
+.container
+  .row
+    .col.m3
+      = link_to plans_path do
+        = image_tag 'cancun.png', width: '100%'
+    .col.m3
+      = image_tag 'chicago.png', width: '100%'
+    .col.m3
+      = image_tag 'kauai.png', width: '100%'
+    .col.m3
+      = image_tag 'london.png', width: '100%'
+  .row
+    .col.m3
+      = image_tag 'loscabos.png', width: '100%'
+    .col.m3
+      = image_tag 'maui.png', width: '100%'
+    .col.m3
+      = image_tag 'miami.png', width: '100%'
+    .col.m3
+      = image_tag 'napasonoma.png', width: '100%'
+  .row
+    .col.m3
+      = image_tag 'newyork.png', width: '100%'
+    .col.m3
+      = image_tag 'oahu.png', width: '100%'
+    .col.m3
+      = image_tag 'orlando.png', width: '100%'
+    .col.m3
+      = image_tag 'paris.png', width: '100%'
+  .row
+    .col.m3
+      = image_tag 'philadelphia.png', width: '100%'
+    .col.m3
+      = image_tag 'sandiego.png', width: '100%'
+    .col.m3
+      = image_tag 'sanfrancisco.png', width: '100%'
+    .col.m3
+      = image_tag 'seattle.png', width: '100%'

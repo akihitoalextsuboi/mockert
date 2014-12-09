@@ -1,0 +1,199 @@
+.parallax-container
+  .row
+    .title.text-center style='position: absolute; top: 31%; left: 28%;'
+      h2.header.light-blue-text.lighten-5 Enjoy Amazing Life
+    = image_tag 'top_hawaii.jpg', width: '100%', height: '450px'
+.container
+  .row
+    .col.s12.m3
+      .card
+        .card-image
+          = image_tag 'cancun.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m3
+      .card.blue-grey.daken-1
+        .card-content
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m3
+      .card
+        .card-image
+          = image_tag 'cancun.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m3
+      .card
+        .card-image
+          = image_tag 'cancun.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+
+.container
+  .row
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'cancun.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'chicago.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'kauai.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+  .row
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'london.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'loscabos.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m4
+      .card.blue-grey.daken-1
+        .card-content
+          span.card-title Card Title
+          
+        .card-content
+          p まだまだ遊びたりないよ！
+          p 員電車ではみんなに力をもらう。（松岡修造『人生を変える修造思考！』より）
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+  .row
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'miami.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'napasonoma.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+    .col.s12.m4
+      .card
+        .card-image
+          = image_tag 'newyork.png', width: '100%' 
+          span.card-title Card Title
+          
+        .card-content
+          p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+        .card-action
+          a href="#" This is a link
+          a href='#' This is a link
+  .row
+    .col.s12.text-center
+      a.btn.waves-effect.waves-light 
+        span More
+        i.mdi-file-cloud.left
+/ h1 Listing plans
+
+/ table
+/   thead
+/     tr
+/       th User
+/       th Title
+/       th Description
+/       th Price
+/       th Price description
+/       th Capacity
+/       th Place
+/       th Hours
+/       th Is open
+/       th Area
+/       th Category
+/       th
+/       th
+/       th
+
+/   tbody
+/     - @plans.each do |plan|
+/       tr
+/         td = plan.user_id
+/         td = plan.title
+/         td = plan.description
+/         td = plan.price
+/         td = plan.price_description
+/         td = plan.capacity
+/         td = plan.place
+/         td = plan.hours
+/         td = plan.is_open
+/         td = plan.area_id
+/         td = plan.category_id
+/         td = link_to 'Show', plan
+/         td = link_to 'Edit', edit_plan_path(plan)
+/         td = link_to 'Destroy', plan, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+/ br
+
+/ = link_to 'New Plan', new_plan_path

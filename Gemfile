@@ -46,6 +46,7 @@ gem 'better_errors'
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
+  gem 'guard-spring'
   gem 'terminal-notifier-guard'
   gem 'guard-livereload'
   gem 'capybara'

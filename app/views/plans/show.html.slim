@@ -1,0 +1,39 @@
+p#notice = notice
+
+p
+  strong User:
+  = @plan.user_id
+p
+  strong Title:
+  = @plan.title
+p
+  strong Description:
+  = @plan.description
+p
+  strong Price:
+  = @plan.price
+p
+  strong Price description:
+  = @plan.price_description
+p
+  strong Capacity:
+  = @plan.capacity
+p
+  strong Place:
+  = @plan.place
+p
+  strong Hours:
+  = @plan.hours
+p
+  strong Is open:
+  = @plan.is_open
+p
+  strong Area:
+  = @plan.area_id
+p
+  strong Category:
+  = @plan.category_id
+
+= link_to 'Edit', edit_plan_path(@plan)
+'|
+= link_to 'Back', plans_path
